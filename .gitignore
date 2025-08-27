@@ -88,3 +88,6 @@ msl.png
 # The CI file checks this out from another repo.
 TMD_Matlab_Toolbox/
 tcap_mailer.py
+
+# Embedded git repositories (should be handled as submodules)
+codes/pyTMD/
