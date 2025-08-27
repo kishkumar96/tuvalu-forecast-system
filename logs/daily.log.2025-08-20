@@ -1,0 +1,17 @@
+2025-08-20 04:28:03,432 [INFO] ============================================================
+2025-08-20 04:28:16,818 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-20 04:28:16,818 [INFO] ============================================================
+2025-08-20 04:28:16,818 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-20 04:28:16,818 [INFO] Platform: linux
+2025-08-20 04:28:16,818 [INFO] Email enabled: False
+2025-08-20 04:28:16,818 [INFO] GUI enabled: False
+2025-08-20 04:28:16,819 [INFO] Disk space OK: 1337.6GB available
+2025-08-20 04:28:16,819 [INFO] Fetching available runs from: https://nomads.ncep.noaa.gov/cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250820
+2025-08-20 04:28:18,059 [INFO] Found 1 available runs: [0]
+2025-08-20 04:28:18,060 [INFO] Using forecast run: 2025-08-20 00:00:00 (hour: 00)
+2025-08-20 04:28:18,060 [INFO] Available runs: [0]
+2025-08-20 04:28:18,061 [INFO] Cleaned up 0 old run directories
+2025-08-20 04:28:18,062 [INFO] Cleanup completed, deleted 0 old runs
+2025-08-20 04:28:18,062 [INFO] Steps to run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2025-08-20 04:28:18,062 [INFO] 🚀 Starting Step 1...
+2025-08-20 04:28:18,062 [INFO] Step 1: Downloading NCEP data...

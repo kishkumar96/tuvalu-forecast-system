@@ -1,0 +1,140 @@
+# =============================================================================
+# Tuvalu Forecast System - Docker Build Context Exclusions
+# Following Docker best practices for minimal build context
+# =============================================================================
+
+# === Runtime Data (Excluded from build) ===
+runs/
+archives/
+Regional_Output/
+Regional_tmp/
+logs/
+test_results/
+persistent_data/
+tmp/
+Hall_Reports/
+
+# === Large Data Files ===
+*.nc
+*.grib2
+*.grb2
+*.bin
+*.dat
+*.hdf5
+*.h5
+*.mat
+
+# === Development Files ===
+.git/
+.gitignore
+*.md
+!README.md
+LICENSE
+CHANGELOG*
+.vscode/
+.idea/
+*.code-workspace
+
+# === Python Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# === Jupyter/IPython ===
+*.ipynb_checkpoints/
+*.ipynb
+
+# === Environment Files ===
+.env
+.env.*
+!.env.example
+
+# === IDE and Editor Files ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Docker Files ===
+docker-compose.override.yml
+docker-compose.*.yml
+!docker-compose.yml
+Dockerfile.*
+!Dockerfile
+
+# === Backup and Temporary Files ===
+*.bak
+*.backup
+*~
+*.tmp
+*.temp
+nohup.out
+
+# === Documentation (keep essential) ===
+*.md
+!README.md
+!DEPLOYMENT.md
+docs/
+documentation/
+
+# === Test and Build Artifacts ===
+coverage/
+.coverage
+.nyc_output
+*.tgz
+*.tar.gz
+
+# === Large Dependencies ===
+miniconda/
+.conda/
+node_modules/
+tuvalu_py39_env/
+
+# === Application-Specific ===
+*.jar
+extras/
+toolsUI-*.jar
+
+# === Configuration (use mounted configs instead) ===
+config/local/
+config/development/
+*.local.yml
+*.dev.yml
+
+# Include essential files
+!requirements_working.txt
+!codes/
+!common/
+!executables/
+QUICKSTART.md
+DEPLOYMENT.md
+SCALABILITY_ASSESSMENT.md
+TEAM_ONBOARDING.md
+ENTERPRISE_READINESS.md
+API_REFERENCE.md
+FAQ.md
+DOCKER_DIAGNOSTIC_REPORT.md
+
+# Scripts not needed in container
+docker_test_framework.sh
+efficiency_monitor.sh
+6h_scheduler.sh
+cycle_manager.sh
+schedule_setup.sh
+
+# Test files
+test.sh
+test_framework.sh

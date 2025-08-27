@@ -1,0 +1,45 @@
+2025-08-22 03:43:54,625 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:44:55,822 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:45:57,007 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:46:58,189 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:47:59,356 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:49:00,543 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:50:01,717 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:51:02,898 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:52:04,084 [INFO] Downloading Copernicus Marine data requires a Copernicus Marine username and password, sign up for free at: https://data.marine.copernicus.eu/register
+2025-08-22 03:54:35,130 [INFO] Selected dataset version: "202406"
+2025-08-22 03:54:35,130 [INFO] Selected dataset part: "default"
+2025-08-22 03:54:41,588 [INFO] Starting download. Please wait...
+2025-08-22 03:54:44,433 [INFO] Successfully downloaded to ../tmp/sla_Nanumea_(14).nc
+2025-08-22 03:55:50,255 [INFO] Selected dataset version: "202406"
+2025-08-22 03:55:50,255 [INFO] Selected dataset part: "default"
+2025-08-22 03:55:56,458 [INFO] Starting download. Please wait...
+2025-08-22 03:55:59,283 [INFO] Successfully downloaded to ../tmp/sla_Nanumanga_(14).nc
+2025-08-22 03:57:05,713 [INFO] Selected dataset version: "202406"
+2025-08-22 03:57:05,714 [INFO] Selected dataset part: "default"
+2025-08-22 03:57:12,067 [INFO] Starting download. Please wait...
+2025-08-22 03:57:14,886 [INFO] Successfully downloaded to ../tmp/sla_Niutao_(14).nc
+2025-08-22 03:58:20,834 [INFO] Selected dataset version: "202406"
+2025-08-22 03:58:20,834 [INFO] Selected dataset part: "default"
+2025-08-22 03:58:27,031 [INFO] Starting download. Please wait...
+2025-08-22 03:58:29,824 [INFO] Successfully downloaded to ../tmp/sla_Nui_(14).nc
+2025-08-22 03:59:35,661 [INFO] Selected dataset version: "202406"
+2025-08-22 03:59:35,661 [INFO] Selected dataset part: "default"
+2025-08-22 03:59:42,078 [INFO] Starting download. Please wait...
+2025-08-22 03:59:44,895 [INFO] Successfully downloaded to ../tmp/sla_Vaitupu_(14).nc
+2025-08-22 04:00:50,764 [INFO] Selected dataset version: "202406"
+2025-08-22 04:00:50,764 [INFO] Selected dataset part: "default"
+2025-08-22 04:00:56,952 [INFO] Starting download. Please wait...
+2025-08-22 04:00:59,775 [INFO] Successfully downloaded to ../tmp/sla_Nukufetau_(14).nc
+2025-08-22 04:02:05,762 [INFO] Selected dataset version: "202406"
+2025-08-22 04:02:05,762 [INFO] Selected dataset part: "default"
+2025-08-22 04:02:11,996 [INFO] Starting download. Please wait...
+2025-08-22 04:02:14,907 [INFO] Successfully downloaded to ../tmp/sla_Fongafale_(14).nc
+2025-08-22 04:03:21,171 [INFO] Selected dataset version: "202406"
+2025-08-22 04:03:21,171 [INFO] Selected dataset part: "default"
+2025-08-22 04:03:27,492 [INFO] Starting download. Please wait...
+2025-08-22 04:03:30,294 [INFO] Successfully downloaded to ../tmp/sla_Nukulaelae_(14).nc
+2025-08-22 04:04:36,417 [INFO] Selected dataset version: "202406"
+2025-08-22 04:04:36,417 [INFO] Selected dataset part: "default"
+2025-08-22 04:04:42,659 [INFO] Starting download. Please wait...
+2025-08-22 04:04:45,830 [INFO] Successfully downloaded to ../tmp/sla_Niulakita_(14).nc

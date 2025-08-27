@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  tuvalu-forecast:
+    build:
+      context: .
+      dockerfile: Dockerfile.simple
+    image: tuvalu-forecast-simple:latest
+    container_name: tuvalu-forecast-simple
+    volumes:
+      - ./runs:/TuvaluForecast/runs
+      - ./logs:/TuvaluForecast/logs
+      - ./tmp:/TuvaluForecast/tmp
+      - ./archives:/TuvaluForecast/archives
+      - ./Regional_Output:/TuvaluForecast/Regional_Output
+      - ./.copernicusmarine:/root/.copernicusmarine
+      - ./.env:/TuvaluForecast/.env
+    environment:
+      - PYTHONPATH=/TuvaluForecast/codes:/TuvaluForecast/common
+    working_dir: /TuvaluForecast/codes
+    stdin_open: true
+    tty: true

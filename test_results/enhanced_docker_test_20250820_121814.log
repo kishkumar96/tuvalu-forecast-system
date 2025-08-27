@@ -1,0 +1,21 @@
+Enhanced Docker Test Harness - Tuvalu Forecast System
+Test Started: Wed 20 Aug 2025 12:18:14 PM +12
+========================================
+[0;34m[INFO][0m Cleaning up existing Docker resources...
+[0;36m🔍 [STEP 1][0m Verifying required Docker files exist
+[0;32m✅ [SUCCESS][0m All required Docker files present
+[0;34m[INFO][0m Test environment setup complete
+HEADER: PHASE 1: DOCKER CONFIGURATION VALIDATION
+[0;36m🔍 [STEP 2][0m Validating docker-compose.yml syntax
+[0;32m✅ [SUCCESS][0m docker-compose.yml syntax is valid
+[0;36m🔍 [STEP 3][0m Validating docker-compose.fast.yml syntax
+[0;32m✅ [SUCCESS][0m docker-compose.fast.yml syntax is valid
+[0;36m🔍 [STEP 4][0m Validating docker-compose.persistent.yml syntax
+[0;32m✅ [SUCCESS][0m docker-compose.persistent.yml syntax is valid
+[0;36m🔍 [STEP 5][0m Validating Dockerfile syntax
+[0;34m[INFO][0m hadolint not available - skipping advanced Dockerfile validation
+HEADER: PHASE 3: CONTAINER FUNCTIONALITY TESTING
+[0;36m🔍 [STEP 6][0m Testing container startup and basic functionality
+[0;31m❌ [ERROR][0m Container startup failed
+HEADER: PHASE 4: VOLUME AND PERSISTENCE TESTING
+[0;36m🔍 [STEP 7][0m Testing volume mounts with docker-compose

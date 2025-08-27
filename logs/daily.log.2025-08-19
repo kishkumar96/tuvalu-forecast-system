@@ -1,0 +1,119 @@
+2025-08-19 00:01:28,159 [INFO] ============================================================
+2025-08-19 00:01:28,159 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:01:28,159 [INFO] ============================================================
+2025-08-19 00:01:28,159 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:01:28,159 [INFO] Platform: linux
+2025-08-19 00:01:28,159 [INFO] Email enabled: False
+2025-08-19 00:01:28,159 [INFO] GUI enabled: False
+2025-08-19 00:01:28,160 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:01:28,160 [INFO] Environment validation complete
+2025-08-19 00:01:31,978 [INFO] ============================================================
+2025-08-19 00:01:31,978 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:01:31,979 [INFO] ============================================================
+2025-08-19 00:01:31,979 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:01:31,979 [INFO] Platform: linux
+2025-08-19 00:01:31,979 [INFO] Email enabled: False
+2025-08-19 00:01:31,979 [INFO] GUI enabled: False
+2025-08-19 00:01:31,979 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:01:31,980 [INFO] Environment validation complete
+2025-08-19 00:01:43,986 [INFO] ============================================================
+2025-08-19 00:01:43,986 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:01:43,986 [INFO] ============================================================
+2025-08-19 00:01:43,986 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:01:43,986 [INFO] Platform: linux
+2025-08-19 00:01:43,986 [INFO] Email enabled: False
+2025-08-19 00:01:43,986 [INFO] GUI enabled: False
+2025-08-19 00:29:39,114 [INFO] ============================================================
+2025-08-19 00:29:39,114 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:29:39,114 [INFO] ============================================================
+2025-08-19 00:29:39,114 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:29:39,114 [INFO] Platform: linux
+2025-08-19 00:29:39,115 [INFO] Email enabled: False
+2025-08-19 00:29:39,115 [INFO] GUI enabled: False
+2025-08-19 00:29:39,116 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:29:39,116 [INFO] Environment validation complete
+2025-08-19 00:29:42,412 [INFO] ============================================================
+2025-08-19 00:29:42,412 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:29:42,412 [INFO] ============================================================
+2025-08-19 00:29:42,412 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:29:42,412 [INFO] Platform: linux
+2025-08-19 00:29:42,412 [INFO] Email enabled: False
+2025-08-19 00:29:42,412 [INFO] GUI enabled: False
+2025-08-19 00:29:42,413 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:29:42,413 [INFO] Environment validation complete
+2025-08-19 00:29:55,296 [INFO] ============================================================
+2025-08-19 00:29:55,296 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:29:55,296 [INFO] ============================================================
+2025-08-19 00:29:55,296 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:29:55,296 [INFO] Platform: linux
+2025-08-19 00:29:55,297 [INFO] Email enabled: False
+2025-08-19 00:29:55,297 [INFO] GUI enabled: False
+2025-08-19 00:29:55,297 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:29:55,297 [INFO] Environment validation complete
+2025-08-19 00:29:58,558 [INFO] ============================================================
+2025-08-19 00:29:58,558 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:29:58,558 [INFO] ============================================================
+2025-08-19 00:29:58,558 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:29:58,558 [INFO] Platform: linux
+2025-08-19 00:29:58,558 [INFO] Email enabled: False
+2025-08-19 00:29:58,558 [INFO] GUI enabled: False
+2025-08-19 00:29:58,559 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:29:58,559 [INFO] Fetching available runs from: https://nomads.ncep.noaa.gov/cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250819
+2025-08-19 00:30:31,227 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250819 (Caused by ResponseError('too many 500 error responses'))
+2025-08-19 00:30:31,228 [WARNING] No runs found for today, checking yesterday...
+2025-08-19 00:30:31,229 [INFO] Fetching available runs from: https://nomads.ncep.noaa.gov/cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250818
+2025-08-19 00:30:31,635 [INFO] Found 4 available runs: [0, 6, 12, 18]
+2025-08-19 00:30:31,636 [INFO] Using forecast run: 2025-08-18 18:00:00 (hour: 18)
+2025-08-19 00:30:31,636 [INFO] Available runs: [0, 6, 12, 18]
+2025-08-19 00:30:31,638 [INFO] Cleaned up 0 old run directories
+2025-08-19 00:30:31,638 [INFO] Cleanup completed, deleted 0 old runs
+2025-08-19 00:30:31,638 [INFO] Steps to run: [1]
+2025-08-19 00:30:31,638 [INFO] 🚀 Starting Step 1...
+2025-08-19 00:30:31,639 [INFO] Step 1: Downloading NCEP data...
+2025-08-19 00:37:49,994 [INFO] ✅ Step 1 completed
+2025-08-19 00:37:49,995 [INFO] ⏱️  Step 1 completed in 438.4 seconds
+2025-08-19 00:37:49,995 [INFO] ============================================================
+2025-08-19 00:37:49,995 [INFO] EXECUTION SUMMARY
+2025-08-19 00:37:49,995 [INFO] ============================================================
+2025-08-19 00:37:49,996 [INFO] Total runtime: 471.4 seconds
+2025-08-19 00:37:49,996 [INFO] Steps attempted: 1
+2025-08-19 00:37:49,996 [INFO] Steps successful: 1
+2025-08-19 00:37:49,996 [INFO] Steps failed: 0
+2025-08-19 00:37:49,996 [INFO] 🎉 Tuvalu Forecast completed successfully!
+2025-08-19 00:37:49,996 [INFO] ============================================================
+2025-08-19 03:30:31,754 [INFO] ============================================================
+2025-08-19 03:30:31,754 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 03:30:31,754 [INFO] ============================================================
+2025-08-19 03:30:31,754 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 03:30:31,754 [INFO] Platform: linux
+2025-08-19 03:30:31,754 [INFO] Email enabled: False
+2025-08-19 03:30:31,754 [INFO] GUI enabled: False
+2025-08-19 03:30:31,755 [INFO] Disk space OK: 1394.4GB available
+2025-08-19 03:30:31,755 [INFO] Environment validation complete
+2025-08-19 03:30:35,058 [INFO] ============================================================
+2025-08-19 03:30:35,058 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 03:30:35,059 [INFO] ============================================================
+2025-08-19 03:30:35,059 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 03:30:35,059 [INFO] Platform: linux
+2025-08-19 03:30:35,059 [INFO] Email enabled: False
+2025-08-19 03:30:35,059 [INFO] GUI enabled: False
+2025-08-19 03:30:35,059 [INFO] Disk space OK: 1394.4GB available
+2025-08-19 03:30:35,059 [INFO] Environment validation complete
+2025-08-19 03:30:44,749 [INFO] ============================================================
+2025-08-19 03:30:44,749 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 03:30:44,749 [INFO] ============================================================
+2025-08-19 03:30:44,750 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 03:30:44,750 [INFO] Platform: linux
+2025-08-19 03:30:44,750 [INFO] Email enabled: False
+2025-08-19 03:30:44,750 [INFO] GUI enabled: False
+2025-08-19 03:30:44,750 [INFO] Disk space OK: 1394.4GB available
+2025-08-19 03:30:44,751 [INFO] Environment validation complete
+2025-08-19 03:30:48,212 [INFO] ============================================================
+2025-08-19 03:30:48,212 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 03:30:48,212 [INFO] ============================================================
+2025-08-19 03:30:48,212 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 03:30:48,212 [INFO] Platform: linux
+2025-08-19 03:30:48,212 [INFO] Email enabled: False
+2025-08-19 03:30:48,212 [INFO] GUI enabled: False
+2025-08-19 03:30:48,213 [INFO] Disk space OK: 1394.4GB available
+2025-08-19 03:30:48,213 [INFO] Environment validation complete

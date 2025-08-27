@@ -1,0 +1,9 @@
+2025-08-26 23:04:19,772 [WARNING] Could not check disk space
+2025-08-26 23:04:19,772 [ERROR] Environment validation failed:
+2025-08-26 23:04:19,772 [ERROR]   - SWAN executable not found: executables/swan.exe
+2025-08-26 23:05:14,878 [WARNING] Could not check disk space
+2025-08-26 23:05:14,878 [ERROR] Environment validation failed:
+2025-08-26 23:05:14,879 [ERROR]   - SWAN executable not found: executables/swan.exe
+2025-08-26 23:09:14,128 [WARNING] Could not check disk space
+2025-08-26 23:09:14,129 [ERROR] Environment validation failed:
+2025-08-26 23:09:14,129 [ERROR]   - SWAN executable not found: executables/swan.exe

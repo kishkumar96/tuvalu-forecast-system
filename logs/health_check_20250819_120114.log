@@ -1,0 +1,48 @@
+2025-08-19 12:01:14 - [0;34m[INFO][0m Starting comprehensive health check...
+2025-08-19 12:01:14 - [0;32m[PASS][0m Disk space: 1398GB available (≥10GB required)
+2025-08-19 12:01:14 - [0;32m[PASS][0m Memory: 125GB total (≥4GB required)
+2025-08-19 12:01:14 - [0;32m[PASS][0m CPU cores: 80 available (≥2 required)
+2025-08-19 12:01:14 - [0;32m[PASS][0m Python version: 3.9.23 (≥3.9 required)
+2025-08-19 12:01:15 - [0;32m[PASS][0m Python package: pandas (2.3.1)
+2025-08-19 12:01:15 - [0;32m[PASS][0m Python package: numpy (2.0.2)
+2025-08-19 12:01:16 - [0;32m[PASS][0m Python package: scipy (1.13.1)
+2025-08-19 12:01:16 - [0;32m[PASS][0m Python package: netCDF4 (1.7.2)
+2025-08-19 12:01:17 - [0;32m[PASS][0m Python package: xarray (2024.7.0)
+2025-08-19 12:01:17 - [0;32m[PASS][0m Python package: matplotlib (3.9.4)
+2025-08-19 12:01:18 - [0;32m[PASS][0m Python package: cartopy (0.23.0)
+2025-08-19 12:01:18 - [0;32m[PASS][0m Python package: geopy (2.4.1)
+2025-08-19 12:01:19 - [0;32m[PASS][0m Python package: requests (2.32.4)
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: codes
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: runs
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: archives
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: Hall_Reports
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: Regional_tmp
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: Regional_Output
+2025-08-19 12:01:19 - [0;32m[PASS][0m Directory exists: logs
+2025-08-19 12:01:19 - [0;32m[PASS][0m Critical file exists: codes/main_run_operational.py
+2025-08-19 12:01:19 - [0;32m[PASS][0m Critical file exists: config.production.yml
+2025-08-19 12:01:19 - [0;32m[PASS][0m Critical file exists: deploy.sh
+2025-08-19 12:01:20 - [0;32m[PASS][0m Internet connectivity: Available
+2025-08-19 12:01:23 - [0;32m[PASS][0m Data source accessible: https://nomads.ncep.noaa.gov/
+2025-08-19 12:01:25 - [0;32m[PASS][0m Data source accessible: https://polar.ncep.noaa.gov/
+2025-08-19 12:01:29 - [0;32m[PASS][0m Application validation: Passed
+2025-08-19 12:01:29 - [0;32m[PASS][0m Configuration file: Valid YAML
+2025-08-19 12:01:29 - [0;34m[INFO][0m Environment variable: TV_ROOT (not set, using defaults)
+2025-08-19 12:01:29 - [0;32m[PASS][0m Docker: Available and running
+2025-08-19 12:01:29 - [0;32m[PASS][0m Docker Compose: Available
+2025-08-19 12:01:29 - [0;32m[PASS][0m System load: 0.12 (low)
+2025-08-19 12:01:29 - [0;32m[PASS][0m Memory usage: 10% (good)
+2025-08-19 12:01:29 - [0;32m[PASS][0m Deploy script: Executable
+2025-08-19 12:01:29 - [1;33m[WARN][0m File permissions: config.production.yml (664) - consider restricting
+2025-08-19 12:01:29 - [0;34m[INFO][0m Running minimal integration test...
+ROOT_DIR set to: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:01:31,978 [INFO] ============================================================
+2025-08-19 00:01:31,978 [INFO] Tuvalu Forecast System - Production Ready
+2025-08-19 00:01:31,979 [INFO] ============================================================
+2025-08-19 00:01:31,979 [INFO] ROOT_DIR: /media/judith/Big_Booty1/Tuvalu_Forecast/tailored-report-tv
+2025-08-19 00:01:31,979 [INFO] Platform: linux
+2025-08-19 00:01:31,979 [INFO] Email enabled: False
+2025-08-19 00:01:31,979 [INFO] GUI enabled: False
+2025-08-19 00:01:31,979 [INFO] Disk space OK: 1397.2GB available
+2025-08-19 00:01:31,980 [INFO] Environment validation complete
+2025-08-19 12:01:32 - [0;32m[PASS][0m Integration test: Application starts correctly
