@@ -115,7 +115,12 @@ def inter2points2nc(folder_tmp,file_name,time_waves,points_all,point_type,triang
 
 def plot_Hs_Dir_maps(nat,tar,dtt,x,y,triang,Time,Hs,Dir,result_folder):
 
-    f = open('../extras/Hs_colormap.dat', 'r') # 'r' = read
+    # Get the directory of this script and build absolute paths
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(script_dir)  # Parent directory (tailored-report-tv)
+    
+    colormap_path = os.path.join(base_dir, 'extras', 'Hs_colormap.dat')
+    f = open(colormap_path, 'r') # 'r' = read
     colors = np.genfromtxt(f, delimiter='  ')
     f.close()
     colors= np.hstack((colors,np.ones((len(colors[:,1]),1))))
@@ -292,7 +297,11 @@ def read_loc_csv(fpath):
     return(atoll,xll,yll,xur,yur)
 
 def buoyhindcastforecast(now):
-    folder_name='../archives/'
+    # Get the directory of this script and build absolute paths
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(script_dir)  # Parent directory (tailored-report-tv)
+    
+    folder_name = os.path.join(base_dir, 'archives') + os.sep
     flist = os.listdir(folder_name)
     dates = []
     for file in flist:
@@ -302,7 +311,10 @@ def buoyhindcastforecast(now):
     dates.sort()
     
 
-    output =open('../tmp/buoy_hindcast_forecast.txt','w')
+    tmp_dir = os.path.join(base_dir, 'tmp')
+    os.makedirs(tmp_dir, exist_ok=True)
+    output_file = os.path.join(tmp_dir, 'buoy_hindcast_forecast.txt')
+    output = open(output_file,'w')
     for r in dates:
          
         nc_fname = folder_name +  r.strftime("%Y") + r.strftime("%m") + r.strftime("%d") + r.strftime("%H") + '_buoy.nc'
@@ -339,8 +351,12 @@ def buoyhindcastforecast(now):
 
 ###################################################################################################################
 def postprocess_SWAN(now, plot):
-    folder_tmp = '../tmp/'
-    out_name = '../runs/' + now.strftime("%Y%m%d%H") + '/'
+    # Get the directory of this script and build absolute paths
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(script_dir)  # Parent directory (tailored-report-tv)
+    
+    folder_tmp = os.path.join(base_dir, 'tmp')
+    out_name = os.path.join(base_dir, 'runs', now.strftime("%Y%m%d%H")) + os.sep
     fl_name = out_name + 'output.mat'
     f14 = out_name + 'fort.14'
 
@@ -350,13 +366,14 @@ def postprocess_SWAN(now, plot):
     if not os.path.exists(f14):
         raise FileNotFoundError(f"Missing mesh file: {f14}")
 
-    result_folder = out_name + '/results/'
+    result_folder = out_name + 'results' + os.sep
     os.makedirs(result_folder, exist_ok=True)
     
-    csvpath = '../extras/Tuvalu_island_gauge_locations.csv'
-    result_folder = out_name + '/results/'
+    csvpath = os.path.join(base_dir, 'extras', 'Tuvalu_island_gauge_locations.csv')
+    
+    # Ensure the result folder exists
     try :
-        os.mkdir(result_folder)
+        os.makedirs(result_folder, exist_ok=True)
     except:
         print("results already exists")
         
@@ -444,7 +461,7 @@ def postprocess_SWAN(now, plot):
     # inter2points2nc(folder_tmp,file_name,time_waves,points_all,point_type,triang,Hs,Tm,Tp,Dir,Windv_x,Windv_y)
     
     buoy =np.array([[179.0696333,   -8.4656333 ]])
-    archfolder='../archives/'
+    archfolder = os.path.join(base_dir, 'archives') + os.sep
     os.makedirs(archfolder, exist_ok=True)
     file_name = now.strftime("%Y") + now.strftime("%m") + now.strftime("%d") + now.strftime("%H") + '_buoy.nc'
     inter2points2nc(archfolder,file_name,time_waves,buoy,'buoy',triang,Hs,Tm,Tp,Dir,Windv_x,Windv_y)
