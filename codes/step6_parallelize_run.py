@@ -120,7 +120,7 @@ def par_run(now):
     print(prompt)
     
     os.system(prompt)
-    sys.exit()
+    # sys.exit()  # REMOVED - this was terminating the entire process and preventing subsequent steps
    
  
     print('finished running')
