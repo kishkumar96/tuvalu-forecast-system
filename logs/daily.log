@@ -1,110 +1,30 @@
-2025-08-26 22:56:53,330 [ERROR] ❌ Step 2 failed after 0.0 seconds: Copernicus Marine credentials not found in environment variables. Please set COPERNICUSMARINE_SERVICE_USERNAME and COPERNICUSMARINE_SERVICE_PASSWORD
-2025-08-26 22:56:53,331 [ERROR] Continuing with remaining steps...
-2025-08-26 22:59:37,885 [INFO] Selected dataset version: "202406"
-2025-08-26 22:59:37,885 [INFO] Selected dataset part: "default"
-2025-08-26 22:59:41,966 [INFO] Starting download. Please wait...
-2025-08-26 22:59:44,860 [INFO] Successfully downloaded to ../tmp/sla_Nanumea_(16).nc
-2025-08-26 23:12:26,365 [INFO] Selected dataset version: "202406"
-2025-08-26 23:12:26,365 [INFO] Selected dataset part: "default"
-2025-08-26 23:12:30,397 [INFO] Starting download. Please wait...
-2025-08-26 23:12:33,131 [INFO] Successfully downloaded to ../tmp/sla_Nanumea_(17).nc
-2025-08-26 23:13:38,844 [INFO] Selected dataset version: "202406"
-2025-08-26 23:13:38,845 [INFO] Selected dataset part: "default"
-2025-08-26 23:13:42,511 [INFO] Starting download. Please wait...
-2025-08-26 23:13:44,962 [INFO] Successfully downloaded to ../tmp/sla_Nanumanga_(16).nc
-2025-08-26 23:14:50,669 [INFO] Selected dataset version: "202406"
-2025-08-26 23:14:50,669 [INFO] Selected dataset part: "default"
-2025-08-26 23:14:54,493 [INFO] Starting download. Please wait...
-2025-08-26 23:14:57,000 [INFO] Successfully downloaded to ../tmp/sla_Niutao_(16).nc
-2025-08-26 23:16:02,768 [INFO] Selected dataset version: "202406"
-2025-08-26 23:16:02,768 [INFO] Selected dataset part: "default"
-2025-08-26 23:16:06,421 [INFO] Starting download. Please wait...
-2025-08-26 23:16:08,881 [INFO] Successfully downloaded to ../tmp/sla_Nui_(16).nc
-2025-08-26 23:17:14,642 [INFO] Selected dataset version: "202406"
-2025-08-26 23:17:14,642 [INFO] Selected dataset part: "default"
-2025-08-26 23:17:18,310 [INFO] Starting download. Please wait...
-2025-08-26 23:17:21,105 [INFO] Successfully downloaded to ../tmp/sla_Vaitupu_(16).nc
-2025-08-26 23:18:26,831 [INFO] Selected dataset version: "202406"
-2025-08-26 23:18:26,831 [INFO] Selected dataset part: "default"
-2025-08-26 23:18:30,668 [INFO] Starting download. Please wait...
-2025-08-26 23:18:33,142 [INFO] Successfully downloaded to ../tmp/sla_Nukufetau_(16).nc
-2025-08-26 23:19:38,861 [INFO] Selected dataset version: "202406"
-2025-08-26 23:19:38,862 [INFO] Selected dataset part: "default"
-2025-08-26 23:19:42,576 [INFO] Starting download. Please wait...
-2025-08-26 23:19:45,676 [INFO] Successfully downloaded to ../tmp/sla_Fongafale_(16).nc
-2025-08-26 23:20:51,409 [INFO] Selected dataset version: "202406"
-2025-08-26 23:20:51,409 [INFO] Selected dataset part: "default"
-2025-08-26 23:20:55,094 [INFO] Starting download. Please wait...
-2025-08-26 23:20:57,561 [INFO] Successfully downloaded to ../tmp/sla_Nukulaelae_(16).nc
-2025-08-26 23:22:03,272 [INFO] Selected dataset version: "202406"
-2025-08-26 23:22:03,272 [INFO] Selected dataset part: "default"
-2025-08-26 23:22:06,925 [INFO] Starting download. Please wait...
-2025-08-26 23:22:09,450 [INFO] Successfully downloaded to ../tmp/sla_Niulakita_(16).nc
-2025-08-27 00:01:14,910 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 00:01:14,912 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 00:07:00,411 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 00:07:00,414 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 00:35:07,196 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 00:35:07,199 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 00:41:03,441 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 00:41:03,443 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 00:55:34,584 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 00:55:34,587 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 01:17:11,493 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 01:17:11,509 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 01:27:52,081 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 01:27:52,084 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 01:31:34,308 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 01:31:34,311 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 02:22:54,891 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 02:22:54,897 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 02:25:04,313 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 02:25:04,316 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 02:29:33,284 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250827 (Caused by ResponseError('too many 500 error responses'))
-2025-08-27 02:29:33,287 [WARNING] No runs found for today, checking yesterday...
-2025-08-27 02:57:46,073 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 02:57:46,074 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 02:57:46,074 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 02:57:46,075 [ERROR] ❌ Step 2 failed after 62.3 seconds: [Errno 13] Permission denied: '/.copernicusmarine'
-2025-08-27 02:57:46,075 [ERROR] Continuing with remaining steps...
-2025-08-27 03:36:49,282 [INFO] Selected dataset version: "202406"
-2025-08-27 03:36:49,283 [INFO] Selected dataset part: "default"
-2025-08-27 03:36:53,209 [INFO] Starting download. Please wait...
-2025-08-27 03:36:55,833 [INFO] Successfully downloaded to ../tmp/sla_Nanumea_(18).nc
-2025-08-27 03:38:01,552 [INFO] Selected dataset version: "202406"
-2025-08-27 03:38:01,552 [INFO] Selected dataset part: "default"
-2025-08-27 03:38:05,246 [INFO] Starting download. Please wait...
-2025-08-27 03:38:07,748 [INFO] Successfully downloaded to ../tmp/sla_Nanumanga_(17).nc
-2025-08-27 03:39:13,448 [INFO] Selected dataset version: "202406"
-2025-08-27 03:39:13,449 [INFO] Selected dataset part: "default"
-2025-08-27 03:39:17,233 [INFO] Starting download. Please wait...
-2025-08-27 03:39:19,697 [INFO] Successfully downloaded to ../tmp/sla_Niutao_(17).nc
-2025-08-27 03:40:25,446 [INFO] Selected dataset version: "202406"
-2025-08-27 03:40:25,446 [INFO] Selected dataset part: "default"
-2025-08-27 03:40:29,156 [INFO] Starting download. Please wait...
-2025-08-27 03:40:31,779 [INFO] Successfully downloaded to ../tmp/sla_Nui_(17).nc
-2025-08-27 03:41:37,527 [INFO] Selected dataset version: "202406"
-2025-08-27 03:41:37,527 [INFO] Selected dataset part: "default"
-2025-08-27 03:41:41,612 [INFO] Starting download. Please wait...
-2025-08-27 03:41:44,104 [INFO] Successfully downloaded to ../tmp/sla_Vaitupu_(17).nc
-2025-08-27 03:42:53,665 [INFO] Selected dataset version: "202406"
-2025-08-27 03:42:53,666 [INFO] Selected dataset part: "default"
-2025-08-27 03:42:57,599 [INFO] Starting download. Please wait...
-2025-08-27 03:43:00,080 [INFO] Successfully downloaded to ../tmp/sla_Nukufetau_(17).nc
-2025-08-27 03:44:05,782 [INFO] Selected dataset version: "202406"
-2025-08-27 03:44:05,782 [INFO] Selected dataset part: "default"
-2025-08-27 03:44:09,438 [INFO] Starting download. Please wait...
-2025-08-27 03:44:12,185 [INFO] Successfully downloaded to ../tmp/sla_Fongafale_(17).nc
-2025-08-27 03:45:17,946 [INFO] Selected dataset version: "202406"
-2025-08-27 03:45:17,946 [INFO] Selected dataset part: "default"
-2025-08-27 03:45:21,636 [INFO] Starting download. Please wait...
-2025-08-27 03:45:24,109 [INFO] Successfully downloaded to ../tmp/sla_Nukulaelae_(17).nc
-2025-08-27 03:46:29,885 [INFO] Selected dataset version: "202406"
-2025-08-27 03:46:29,885 [INFO] Selected dataset part: "default"
-2025-08-27 03:46:33,552 [INFO] Starting download. Please wait...
-2025-08-27 03:46:36,043 [INFO] Successfully downloaded to ../tmp/sla_Niulakita_(17).nc
-2025-08-27 03:48:55,727 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 03:48:55,728 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 03:48:55,728 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
-2025-08-27 03:48:55,729 [ERROR] ❌ Step 2 failed after 62.3 seconds: [Errno 13] Permission denied: '/.copernicusmarine'
-2025-08-27 03:48:55,729 [ERROR] Continuing with remaining steps...
+2025-08-28 02:02:06,069 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250828 (Caused by ResponseError('too many 500 error responses'))
+2025-08-28 02:02:06,072 [WARNING] No runs found for today, checking yesterday...
+2025-08-28 02:09:35,447 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250828 (Caused by ResponseError('too many 500 error responses'))
+2025-08-28 02:09:35,449 [WARNING] No runs found for today, checking yesterday...
+2025-08-28 02:10:18,130 [ERROR] Error downloading run list: HTTPSConnectionPool(host='nomads.ncep.noaa.gov', port=443): Max retries exceeded with url: /cgi-bin/filter_gfswave.pl?dir=%2Fgfs.20250828 (Caused by ResponseError('too many 500 error responses'))
+2025-08-28 02:10:18,132 [WARNING] No runs found for today, checking yesterday...
+2025-08-28 02:17:32,583 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:17:32,584 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:17:32,584 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:17:32,584 [ERROR] ❌ Step 2 failed after 62.2 seconds: [Errno 13] Permission denied: '/.copernicusmarine'
+2025-08-28 02:17:32,584 [ERROR] Continuing with remaining steps...
+2025-08-28 02:18:13,697 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:18:13,698 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:18:13,698 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 02:18:13,698 [ERROR] ❌ Step 2 failed after 62.4 seconds: [Errno 13] Permission denied: '/.copernicusmarine'
+2025-08-28 02:18:13,699 [ERROR] Continuing with remaining steps...
+2025-08-28 02:41:10,853 [ERROR] ❌ Step 7 failed after 0.5 seconds: Did not read any bytes
+2025-08-28 02:41:10,853 [ERROR] Continuing with remaining steps...
+2025-08-28 02:41:10,870 [ERROR] ❌ Step 8 failed after 0.0 seconds: Step 8 requires valid output.mat: output.mat validation failed: Did not read any bytes
+2025-08-28 02:41:10,870 [ERROR] Continuing with remaining steps...
+2025-08-28 02:41:10,885 [ERROR] ❌ Step 9 failed after 0.0 seconds: Step 9 requires valid output.mat: output.mat validation failed: Did not read any bytes
+2025-08-28 02:41:10,886 [ERROR] Continuing with remaining steps...
+2025-08-28 02:51:23,917 [ERROR] Failed steps: [2, 7, 8, 9]
+2025-08-28 02:53:24,252 [ERROR] Failed steps: [2]
+2025-08-28 05:01:24,732 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 05:01:24,733 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 05:01:24,733 [ERROR] Client version 1.1.1 is not compatible with current backend service. Please update to the latest client version.
+2025-08-28 05:01:24,733 [ERROR] ❌ Step 2 failed after 63.0 seconds: [Errno 13] Permission denied: '/.copernicusmarine'
+2025-08-28 05:01:24,734 [ERROR] Continuing with remaining steps...
+2025-08-28 06:55:29,444 [ERROR] Failed steps: [2]
