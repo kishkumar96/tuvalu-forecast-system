@@ -405,22 +405,25 @@ if __name__ == "__main__":
         logging.warning("--all flag provided along with --step/--steps; ignoring --all and using explicit selection")
 
     if args.all:
-        steps_to_run = list(range(1, 13))
+        steps_to_run = list(range(1, 15))  # Updated to include all steps 1-14
     elif args.resume:
         last_step = get_last_completed_step(now)
         if last_step > 0:
             logging.info(f"Resuming from step {last_step + 1}")
-            steps_to_run = list(range(last_step + 1, 13))  # Resume from next step
+            steps_to_run = list(range(last_step + 1, 15))  # Resume from next step
         else:
             logging.info("No completed steps found, starting from step 1")
-            steps_to_run = list(range(1, 13))
+            steps_to_run = list(range(1, 15))  # Updated to include all steps 1-14
     elif args.step:
         steps_to_run = [args.step]
     elif args.steps:
         steps_to_run = sorted(args.steps)  # Ensure proper ordering
     else:
-        # Default: run all core steps (excluding Windows-only GUI steps 13-14)
-        steps_to_run = list(range(1, 13))
+        # Default: run all core steps (1-12), optionally including GUI steps on Windows
+        if PLATFORM == "windows" and GUI_ENABLED:
+            steps_to_run = list(range(1, 15))  # Include GUI steps on Windows
+        else:
+            steps_to_run = list(range(1, 13))   # Core steps only on Linux/Docker
     
     if not steps_to_run:
         logging.warning("No steps to run")
